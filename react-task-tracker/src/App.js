@@ -25,12 +25,17 @@ function App() {
         },
     ]
 )
-  return (
-    <div className="container"> 
-      <Header />
-      <Tasks tasks={tasks}/>
-    </div>
-  );
+    //delete task
+    const deleteTask = (id) => {
+      setTasks(tasks.filter((task) => task.id !== id))
+      console.log("delete", id)
+    }
+    return (
+      <div className="container"> 
+        <Header />
+        {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask} />) : ("No tasks to show")}
+      </div>
+    );
 }
 
 export default App;
