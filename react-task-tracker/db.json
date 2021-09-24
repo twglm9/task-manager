@@ -13,12 +13,6 @@
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "school meeting",
-      "day": "feb 6 @ 1:30pm",
-      "reminder": true
-    },
-    {
       "text": "penil",
       "day": "time",
       "reminder": true,
