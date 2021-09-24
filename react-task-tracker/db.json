@@ -4,18 +4,18 @@
       "id": 1,
       "text": "dr appointment",
       "day": "deb 5 @ 2:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "penil",
       "day": "time",
-      "reminder": false,
+      "reminder": true,
       "id": 4
     },
     {
       "text": "egg salad",
       "day": "never",
-      "reminder": false,
+      "reminder": true,
       "id": 5
     }
   ]
